@@ -20,4 +20,7 @@ document.getElementById('password').innerHTML = password;
 
 
 //Aggiunta colore della password in base al colore scelto solo se viene scritto in inglese
-document.getElementById('password').style.color = colore;
+//document.getElementById('password').style.color = colore;
+
+//Test settaggio di una variabile CSS tramite Javascript
+document.getElementById('password').style.setProperty('--colore-password',  colore);

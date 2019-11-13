@@ -13,7 +13,6 @@
     align-items: center;
 }
 
-
 #messaggio, #utente{
     display: none;
 }
@@ -21,4 +20,9 @@
 #messaggio.visibile, #utente.visibile {
     display: block;
     color: blue;
+}
+
+#password {
+    /* dichiaro una variabile in css che sarà valorizzata dal javascript */
+    color: var(--colore-password);
 }
