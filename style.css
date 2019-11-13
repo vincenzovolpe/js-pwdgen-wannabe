@@ -1,6 +1,19 @@
+] {
+
+}
+
+.mostra-password {
+    display: flex;
+    height: 100vh;
+    background-color: aqua;
+}
+
 #messaggio {
     display: none;
 }
+
 #messaggio.visibile {
     display: block;
+    margin: auto;
+    color: blue;
 }
