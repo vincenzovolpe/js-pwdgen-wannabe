@@ -1,0 +1,6 @@
+#messaggio {
+    display: none;
+}
+#messaggio.visibile {
+    display: block;
+}
