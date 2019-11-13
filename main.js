@@ -11,10 +11,12 @@ var numero = prompt("Digita un numero intero: ")
 var password = nome.toLowerCase()+cognome.toLowerCase()+colore.toLowerCase()+numero
 
 //Aggiunta messaggio a schermo
+document.getElementById('utente').setAttribute("class", "visibile");
 document.getElementById('messaggio').setAttribute("class", "visibile");
 
 //Aggiunta password al messaggio a schermo
 document.getElementById('password').innerHTML = password;
+document.getElementById('identita').innerHTML = nome  + " " + cognome;
 
 //Aggiunta colore della password in base al colore scelto solo se viene scritto in inglese
 document.getElementById('password').style.color = colore;
